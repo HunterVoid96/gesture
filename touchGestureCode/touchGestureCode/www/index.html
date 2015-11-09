@@ -16,8 +16,14 @@
 
   <div data-role="main" class="ui-content">
 
-    	<button id="tapbutton">Beep</button>
-    	
+    	<button onclick="myFunction">Beep</button>
+		<p id = "demo"></p>
+    	<script>
+		 	function myFunction() {
+			return !Math.round(Math.random());
+			document.getElementId("demo").innerHTML = Math.random();
+}
+</script>
  
   </div>
   

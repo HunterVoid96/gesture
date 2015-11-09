@@ -6,7 +6,7 @@ $(document).on("pagecreate","#pageone",function(){
 
 	$('#tapbutton').on("tap",function(){
     	function random() {
- return !Math.round(Math.random());
+			return !Math.round(Math.random());
 }
  	}); 
 
