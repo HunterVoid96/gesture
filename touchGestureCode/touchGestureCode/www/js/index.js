@@ -8,6 +8,7 @@ $(document).on("pagecreate","#pageone",function(){
     	function random() {
 			return !Math.round(Math.random());
 }
+navigator.notifcation.beep(2)
  	}); 
 
 
