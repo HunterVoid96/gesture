@@ -1,38 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css">
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
-<script src="js/index.js"></script>
-</head>
 <body>
 
-<div data-role="page" id="pageone">
-  <div data-role="header">
-    <h1>Click the button to display a random number</h1>
-  </div>
+    <p>Click the button to display a random number</p>
 
-  <div data-role="main" class="ui-content">
 
     	<button onclick="myFunction">Beep</button>
 		<p id = "demo"></p>
     	<script>
-		 	function myFunction() {
-			return !Math.round(Math.random());
+		 	function myFunction(){
 			document.getElementId("demo").innerHTML = Math.random();
 }
 </script>
  
-  </div>
-  
-  
-
-  <div data-role="footer">
-    <h1>Footer Text</h1>
-  </div>
-</div> 
-
 </body>
 </html>
